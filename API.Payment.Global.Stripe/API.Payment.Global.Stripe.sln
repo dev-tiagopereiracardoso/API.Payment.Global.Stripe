@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{24CEE6C2-C84B-40B1-8C2E-1F9B6CD6F79E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Presentation", "1-Presentation", "{335A9E37-3D31-4600-866E-931B05409D33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Domain", "2-Domain", "{88532E54-A4C3-4BD9-9211-265E15A2A7DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Infra", "3-Infra", "{BC36A51C-FFDB-432E-8795-9C6B982EB1A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Payment.Global.Stripe.Service", "src\API.Payment.Global.Stripe.Service\API.Payment.Global.Stripe.Service.csproj", "{2D8D71F3-2B5B-4529-A37A-1E5FAF7B0574}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Payment.Global.Stripe.Domain", "src\API.Payment.Global.Stripe.Domain\API.Payment.Global.Stripe.Domain.csproj", "{E6063FF9-639B-4245-A1FC-B7978F713F07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Payment.Global.Stripe.Models", "src\API.Payment.Global.Stripe.Models\API.Payment.Global.Stripe.Models.csproj", "{B0C84683-7A86-441F-94F8-2E83D8015C4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{776C65CD-4AC7-4885-9509-BFF212BD1B68}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D8D71F3-2B5B-4529-A37A-1E5FAF7B0574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D8D71F3-2B5B-4529-A37A-1E5FAF7B0574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D8D71F3-2B5B-4529-A37A-1E5FAF7B0574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D8D71F3-2B5B-4529-A37A-1E5FAF7B0574}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6063FF9-639B-4245-A1FC-B7978F713F07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6063FF9-639B-4245-A1FC-B7978F713F07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6063FF9-639B-4245-A1FC-B7978F713F07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6063FF9-639B-4245-A1FC-B7978F713F07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0C84683-7A86-441F-94F8-2E83D8015C4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0C84683-7A86-441F-94F8-2E83D8015C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0C84683-7A86-441F-94F8-2E83D8015C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0C84683-7A86-441F-94F8-2E83D8015C4A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{335A9E37-3D31-4600-866E-931B05409D33} = {24CEE6C2-C84B-40B1-8C2E-1F9B6CD6F79E}
+		{88532E54-A4C3-4BD9-9211-265E15A2A7DD} = {24CEE6C2-C84B-40B1-8C2E-1F9B6CD6F79E}
+		{BC36A51C-FFDB-432E-8795-9C6B982EB1A0} = {24CEE6C2-C84B-40B1-8C2E-1F9B6CD6F79E}
+		{2D8D71F3-2B5B-4529-A37A-1E5FAF7B0574} = {335A9E37-3D31-4600-866E-931B05409D33}
+		{E6063FF9-639B-4245-A1FC-B7978F713F07} = {88532E54-A4C3-4BD9-9211-265E15A2A7DD}
+		{B0C84683-7A86-441F-94F8-2E83D8015C4A} = {BC36A51C-FFDB-432E-8795-9C6B982EB1A0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {136E1B61-8386-4043-B1BA-5123D5B620E9}
+	EndGlobalSection
+EndGlobal
